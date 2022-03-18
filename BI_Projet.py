@@ -7,6 +7,7 @@ st.write(value, 'squared is', value * value)
 #Streamlit runs the python script from top to bottom
 #Each time the user interacts the script is a rerun from top to bottom
 #Streamlit allows you to use caching for costly operations like loading large datasets import pandas as pd
+import pandas as pd
 st.title("Welcome to Streamlit! DataFrame")
 st.write("Our first DataFrame")
 st.write(
