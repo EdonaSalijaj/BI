@@ -18,3 +18,15 @@ st.write(
     })
 ) 
 
+streamlit run experiment.py
+#Select box in streamlit
+st.title("Welcome to Streamlit! Select Box")
+
+#dedans on peut inclusivement mettre des conditions: demandé des users = être interactive
+selectbox = st.selectbox(
+    "Select yes or no",
+    ["Yes", "No"]
+)
+st.write(f"You selected {selectbox}")
+#The first argument to st.selectbox is the string to display and the second argument is a list of options to select. 
+#And then we display the selected value in the app using st.write method.
