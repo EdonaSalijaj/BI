@@ -18,11 +18,10 @@ st.write(
     })
 ) 
 
-streamlit run BI_Projet.py
+# this is for writing on command line "streamlit run experiment.py" 
 #Select box in streamlit
 st.title("Welcome to Streamlit! Select Box")
 
-#dedans on peut inclusivement mettre des conditions: demandé des users = être interactive
 selectbox = st.selectbox(
     "Select yes or no",
     ["Yes", "No"]
