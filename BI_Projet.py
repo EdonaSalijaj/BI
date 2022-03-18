@@ -18,7 +18,7 @@ st.write(
     })
 ) 
 
-streamlit run experiment.py
+streamlit run BI_Projet.py
 #Select box in streamlit
 st.title("Welcome to Streamlit! Select Box")
 
