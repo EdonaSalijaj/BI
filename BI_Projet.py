@@ -9,7 +9,7 @@ st.write(value, 'squared is', value * value)
 #Streamlit allows you to use caching for costly operations like loading large datasets import pandas as pd
 #utilisation du data frame 
 import pandas as pd
-st.title("Welcome to Streamlit! DataFrame")
+st.title("Welcome to Streamlit! DataFrame. CRAZY STUDENT")
 st.write("Our first DataFrame")
 st.write(
   pd.DataFrame({
@@ -17,4 +17,4 @@ st.write(
       'B': [5, 6, 7, 8]
     })
 ) 
-streamlit run BI_projet.py
+
